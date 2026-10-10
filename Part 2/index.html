@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lương Thị Thu Huyền - Portfolio</title>
+</head>
+<body>
+
+    <!---- HEADER -->
+    <header>
+        <h1>Lương Thị Thu Huyền</h1>
+        <p><em>Sinh viên Thiết Kế Web - Front-end Intern</em></p>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!--MAIN -->
+    <main>
+
+        <!-- About -->
+        <section id="about">
+            <h2>About Me</h2>
+            <figure>
+                <img src="../images/portfolio.jpg" alt="Ảnh cá nhân" width="180">
+                <figcaption>Ảnh cá nhân</figcaption>
+            </figure>
+            <p>
+                Xin chào! Tôi là <strong>Lương Thị Thu Huyền</strong>, sinh viên năm 4
+                ngành Toán - Tin học. Tôi yêu thích <em>thiết kế web</em>
+                và đang học HTML, CSS, JavaScript.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 semantic structure</li>
+                <li>Git / GitHub cơ bản</li>
+                <li>XAMPP / localhost</li>
+                <li>Tiếng Anh đọc hiểu tài liệu</li>
+            </ul>
+
+            <h3>Mức độ ưu tiên học tập</h3>
+            <ol>
+                <li>HTML Fundamentals</li>
+                <li>CSS Layout</li>
+                <li>JavaScript DOM</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Dự án 1: Website Du Lịch</h3>
+                <figure>
+                    <img src="../images/dulich.jpg" alt="Giao diện website du lịch với hình ảnh điểm đến và tour du lịch" width="250">
+                    <figcaption>Khám phá điểm đến</figcaption>
+                </figure>
+                <p>Xây dựng trang du lịch với danh sách tour, địa điểm nổi bật và form đặt tour tĩnh. Sử dụng semantic HTML để tổ chức nội dung rõ ràng.</p>
+            </article>
+
+            <article>
+                <h3>Dự án 2: Blog cá nhân</h3>
+                <figure>
+                    <img src="../images/techblog.jpg" alt="Giao diện blog cá nhân với các bài viết và thanh sidebar" width="250">
+                    <figcaption>Blog chia sẻ kiến thức</figcaption>
+                </figure>
+                <p>  Thiết kế blog cá nhân chia sẻ kiến thức lập trình.
+        Blog gồm trang chủ hiển thị danh sách bài viết, trang chi tiết bài viết,
+        chuyên mục phân loại và phần thông tin tác giả. Sử dụng semantic HTML
+        với <strong>article</strong> cho mỗi bài viết và <strong>section</strong>
+        để phân tách chuyên mục.</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Education + Table -->
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Năm</th>
+                        <th>Trường / Khóa học</th>
+                        <th>Kết quả</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023 - 2024</td>
+                        <td>Đại học Khoa học Tự nhiên/Toán - Tin học</td>
+                        <td>GPA 3.2/4.0</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Khóa HTML Fundamentals</td>
+                        <td>Hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>WD-Lab01 Static HTML</td>
+                        <td>Đang thực hiện</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact + Form -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>
+                Email:
+                <a href="mailto:luongthithuhuyen@example.com">luongthithuhuyen@example.com</a><br>
+                Tel: <a href="tel:+84901234567">0901 234 567</a>
+            </p>
+
+            <h3>Gửi tin nhắn</h3>
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Họ tên:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Lương Thị Thu Huyền">
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="luongthithuhuyen@example.com">
+                </p>
+                <p>
+                    <label for="message">Nội dung:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Gửi</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2026 Lương Thị Thu Huyền - WD-Lab01. All rights reserved.</p>
+        <p><a href="#about">Back to top</a></p>
+    </footer>
+
+</body>
+</html>
